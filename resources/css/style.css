@@ -1,0 +1,31 @@
+.bg {
+    background-color: #40E0D0;
+}
+
+.bxinput {
+    border: 1px solid rgba(164, 182, 200, 0.7);
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.bg-text {
+    color: #40E0D0;
+}
+
+.card {
+    padding: 16 px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    min-width: 0 px;
+    overflow-wrap: break-word;
+    background: var(--chakra-colors-white);
+    box-shadow: rgb(0 0 0 / 2%) 0px 3.5px 5.5px;
+    border-radius: 15px;
+}
+
+.border {
+    --tw-border-opacity: 1;
+    border-color: rgba(167, 243, 208, var(--tw-border-opacity));
+}
